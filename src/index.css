@@ -2,7 +2,7 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-  color: white;
+  color: rgb(17, 16, 16);
 }
 
 body,html{
@@ -11,19 +11,119 @@ body,html{
 }
 
 body{
-  background-color: rgb(6, 6, 6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgb(255, 255, 255);
+
 
 }
 
-#root{
-  background-color: rgb(59, 50, 56);
-  padding: 5px;
+.parent{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(185, 183, 183);
   display: flex;
-  justify-content: center;
-  width: fit-content;
-  height: fit-content;
+
   
 }
+.card{
+  height: 300px;
+  width: 250px;
+  background-color: rgb(230, 224, 224);
+  border-radius: 30px;
+  padding: 10px 15px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.card .top{
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.top img{
+  height: 30px;
+  border-radius: 40%;
+}
+
+
+.top button{
+ background-color:rgb(195, 193, 193);
+ border: none;
+ display: flex;
+ align-items: center;
+ padding: 3px;
+ border-radius: 20px;
+}
+
+.card .center{
+background: rgb(195, 193, 193);
+padding:9px;
+display: flex;
+flex-direction: column;
+gap: 4px;
+border-radius: 20px;
+
+}
+
+
+
+.center h3{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.center h3 span{
+  font-size: 9px;
+  font-weight: 400;
+  
+}
+
+.center h2{
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.center .tag{
+  display: flex;
+  gap: 20px;
+}
+
+.center .tag h4{
+   font-size: 12px;
+  font-weight: 300;
+  background-color: rgb(158, 157, 157);
+}
+
+
+.card .bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-top: 15px;
+  font-size: 20px;
+  
+}
+
+.card .bottom button{
+  padding: 2px;
+  background-color: rgb(55, 54, 54);
+  color: white;
+  
+}
+
+
+
+.card .bottom h5{
+  font-weight: 100;
+  font-size: 9px;
+  color: rgb(130, 126, 126);
+  
+}
+
+
+
