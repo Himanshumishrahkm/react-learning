@@ -16,21 +16,45 @@ body{
 
 }
 
+
+#root{
+  
+  min-height:100vh;
+
+  display:flex;
+
+  justify-content:center;
+
+  padding: 100px 200px;
+
+
+}
+
 .parent{
-  height: 100vh;
-  width: 100%;
-  background-color: rgb(185, 183, 183);
+  width:98%; 
+  
   display: flex;
+  min-height:80vh;
+  background-color: rgb(208, 207, 207);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap:40px 30px;
+  overflow: visible;
+ 
+
+padding: 80px 95px;
+  border-radius:20px;
+}
 
   
-}
+
 .card{
-  height: 300px;
+  height: 275px;
   width: 250px;
   background-color: rgb(230, 224, 224);
   border-radius: 30px;
   padding: 10px 15px;
-  margin: 20px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -111,7 +135,7 @@ border-radius: 20px;
 
 .card .bottom button{
   padding: 2px;
-  background-color: rgb(55, 54, 54);
+  background-color: rgb(226, 14, 14);
   color: white;
   
 }
