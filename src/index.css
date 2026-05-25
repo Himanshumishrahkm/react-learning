@@ -98,6 +98,8 @@ border-radius: 20px;
 .center h3{
   font-size: 17px;
   font-weight: 500;
+  color: blue;
+  
 }
 
 .center h3 span{
@@ -119,7 +121,8 @@ border-radius: 20px;
 .center .tag h4{
    font-size: 12px;
   font-weight: 300;
-  background-color: rgb(158, 157, 157);
+  background-color: rgb(141, 140, 140);
+  border-radius: 10%;
 }
 
 
