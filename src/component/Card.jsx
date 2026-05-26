@@ -6,7 +6,6 @@ import {Bookmark} from 'lucide-react'
 
 function Card(props) {
   const [saved, setSaved] = useState(false);
-  const str = localStorage();
   return (
     
        
